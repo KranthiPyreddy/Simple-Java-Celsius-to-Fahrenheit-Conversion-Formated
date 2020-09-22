@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package map103lab1;
+
 /*
  * @author kranthipyreddy
  */
@@ -15,19 +16,18 @@ public class MAP103Lab1 {
 // Create a Scanner to obtain information from the command prompt
         Scanner input = new Scanner(System.in);
 // Declare variables to hold information
-       float celsius;
-       float Fahrenheit;
-       
+        float celsius;
+        float Fahrenheit;
+
 //Prompt the user to enter the temperature in Celcius
         System.out.print("Please enter the temperature in celcius: ");
         celsius = input.nextInt();
-        
-//Convert Celsius to Fahrenheit
 
+//Convert Celsius to Fahrenheit
         Fahrenheit = celsius * (9f / 5) + 32;
- 
- //Print the out      
-        System.out.println(celsius + " degree Celsius is equals to " + Fahrenheit +" degree Fahrenheit.");
+
+        //Print the out      
+        System.out.println(celsius + " degree Celsius is equals to " + Fahrenheit + " degree Fahrenheit.");
         input.close();
     }
 }
